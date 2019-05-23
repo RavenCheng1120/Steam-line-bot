@@ -12,9 +12,9 @@ from wordToVector import findAnswer
 app = Flask(__name__)
 
 # Channel Access Token
-line_bot_api = LineBotApi('Vm69XP4keizpf1bwUB4VnEGcOhFqByjj0KgIIThu/QKPMc5QKKPL+qy24Y8/mkfMnBP+sn/rqaImNtIdiJtsO4DAu4YaCkzlrMLqPpYtuLR+c0jTR0wC8i7aOlnPlI/Sj9K9BdEcqqJosRbkrXipmQdB04t89/1O/w1cDnyilFU=')
+line_bot_api = LineBotApi('Vm69XP4keizpf1bwUB4VnEGcOhFqByjj0KgIIThu/QKPMc5QKKPL+qy24Y8/mkfMnBP+sn/rqaImNtIdiJtsO4DAu4YaCkzlrMLqPpYtuLR+c0jTR0wC8i7aOlnPlI/Sj9K9BdEcqqJosRbkrXipmQdB04t89/1O/xxxxxxxxxx=')
 # Channel Secret
-handler = WebhookHandler('f9ffb74813ee757858c2fac1bce86e52')
+handler = WebhookHandler('f9ffb74813ee757858c2faxxxxxxxxxx')
 
 # 監聽所有來自 /callback 的 Post Request
 @app.route("/callback", methods=['POST'])
